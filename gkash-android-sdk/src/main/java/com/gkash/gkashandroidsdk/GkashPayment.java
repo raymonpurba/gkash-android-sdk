@@ -85,7 +85,8 @@ public class GkashPayment {
         intent.putExtra("billingCity", request.getBillingCity() == null ? "" : request.getBillingCity());
         intent.putExtra("billingState", request.getBillingState() == null ? "" : request.getBillingState());
         intent.putExtra("billingCountry", request.getBillingCountry() == null ? "" : request.getBillingCountry());
-        intent.putExtra("signature", request.generateSignature() == null ? "" : request.generateSignature());
+//        intent.putExtra("signature", request.generateSignature() == null ? "" : request.generateSignature());
+        intent.putExtra("signature", request.getSignatureKey() == null ? "" : request.getSignatureKey());
         intent.putExtra("packageName", activity.getPackageName() == null ? "" : activity.getPackageName());
         intent.putExtra("signatureKey", request.getSignatureKey() == null ? "" : request.getSignatureKey());
 
