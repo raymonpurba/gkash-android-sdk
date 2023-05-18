@@ -9,7 +9,7 @@ ext {
     PUBLISH_LICENSE_NAME = 'The Apache Software License, Version 2.0'
     PUBLISH_LICENSE_URL =
             'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    PUBLISH_DEVELOPER_ID = 'gkash'
+    PUBLISH_DEVELOPER_ID = 'raymonpurba'
     PUBLISH_DEVELOPER_NAME = 'Raymon Purba'
     PUBLISH_DEVELOPER_EMAIL = 'raymon.purba@mandrill.com.my'
     PUBLISH_SCM_CONNECTION =
